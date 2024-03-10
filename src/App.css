@@ -1,0 +1,121 @@
+.App {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.bg_white {
+  width: 32%;
+  height: 100vh;
+  text-align: center;
+  background-color: white;
+  border-right: 1px solid rgba(128, 128, 128, 0.668);
+}
+
+.Search {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.threeline {
+  font-size: 35px;
+  color: gray;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.BgWhiteInput {
+  width: 70%;
+  height: 32px;
+  padding: 0 10px;
+  background-color: rgba(128, 128, 128, 0.277);
+  border-radius: 5px;
+  border: none;
+}
+.BgWhiteInput:focus {
+  outline: none;
+}
+
+.massages {
+  width: 100%;
+  height: 80vh;
+}
+
+.contactes {
+  width: 100%;
+  height: 74vh;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+.Contact {
+  width: 100%;
+  height: 90px;
+  border: none;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.34);
+  cursor: pointer;
+}
+
+.Contact:hover {
+  background-color: rgba(128, 128, 128, 0.293);
+}
+
+.Contact-Post {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  align-items: center;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding: 0 20px;
+}
+
+.btnAdd {
+  width: 85%;
+  height: 35px;
+  font-weight: bold;
+  background-color: white;
+  border: 1px solid blue;
+  border-radius: 5px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.btnAdd:hover {
+  background-color: rgb(105, 180, 241);
+}
+
+.btn_Logout {
+  width: 20%;
+  height: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+  background-color: brown;
+  margin: auto;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bg_green {
+  width: 68%;
+  height: 100vh;
+  background: url("./bg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text_bgGreen {
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin: 50vh 0;
+}

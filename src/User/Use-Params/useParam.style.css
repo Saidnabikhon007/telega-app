@@ -1,0 +1,147 @@
+.UseParam {
+  width: 68%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-image: url("../../bg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.UseParam-header {
+  width: 68%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.UseParam-header1 {
+  width: 100%;
+  height: 7vh;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.header1-text {
+  font-size: 20px;
+  margin: 0 10px;
+}
+.header1-Icons {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  justify-content: space-between;
+}
+
+.UseParam-header2 {
+  width: 100%;
+  height: 83vh;
+  padding: 0 5px;
+  border: 1px solid white;
+}
+
+.inputMassage {
+  width: fit-content;
+  height: 100%;
+  padding: 2px 3px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.UseParam-header3 {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.header3-input {
+  width: 77%;
+  height: 30px;
+  border: none;
+  color: grey;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.header3-input:focus {
+  outline: none;
+}
+
+.header3-Icon {
+  font-size: 20px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.header3-IconSend {
+  font-size: 20px;
+  margin: 0 10px;
+  color: rgb(0, 110, 255);
+  cursor: pointer;
+}
+
+.UseParam-container {
+  width: 32%;
+  height: 100%;
+  background-color: white;
+  border-left: 1px solid rgba(128, 128, 128, 0.668);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.UseParam-container-text-user {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
+}
+
+.UseParam-container-text {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 15px;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.UseParam-container-text-phone {
+  font-size: 15px;
+  padding-left: 50px;
+}
+.border {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  border-top: 1px solid rgba(128, 128, 128, 0.388);
+}
+
+.Share {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 7px 0;
+  justify-content: space-evenly;
+}
+
+.ShareText {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.ShareIcon {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.handIcon {
+  font-size: 20px;
+  color: red;
+  cursor: pointer;
+}

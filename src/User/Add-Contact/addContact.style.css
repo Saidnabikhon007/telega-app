@@ -1,0 +1,75 @@
+.AddContact {
+  width: 100%;
+  height: 100vh;
+  background-color: #616161;
+  position: absolute;
+}
+
+.AddContainer {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 350px;
+  margin: 20vh auto;
+  padding: 10px 0;
+  border-radius: 5px;
+  background-color: white;
+  position: relative;
+}
+
+.add-delete {
+  font-size: 40px;
+  color: green;
+  cursor: pointer;
+  position: absolute;
+  top: -13px;
+  right: -13px;
+}
+
+.addContactText {
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  color: green;
+}
+
+.addContact-input {
+  width: 85%;
+  height: 35px;
+  border: none;
+  color: grey;
+  border-bottom: 1px solid green;
+  margin: 5px auto;
+  padding: 10px 5px;
+}
+
+.addContact-input::placeholder {
+  font-size: 15px;
+}
+
+.addContact-input:focus {
+  outline: none;
+}
+
+.add-buttons {
+  width: 70%;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+}
+
+.addContact-butn {
+  width: 45%;
+  height: 35px;
+  border-radius: 7px;
+  text-transform: uppercase;
+  color: white;
+  background-color: green;
+  border: none;
+  cursor: pointer;
+}
+
+.addContact-butn:active {
+  background-color: brown;
+}
